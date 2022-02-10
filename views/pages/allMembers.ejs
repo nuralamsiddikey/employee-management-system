@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>All Members</title>
+    <link
+    rel="stylesheet"
+    href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+    crossorigin="anonymous"
+  />
+
+  <!-- Latest compiled and minified CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <link rel="stylesheet" href="../css/allMembers.css">
+</head>
+<body>
+    
+<div class="bg-dark py-1" style="position: sticky; top: 0;">
+       
+<div class="container ">
+    <div class=" row header  " >
+        <div class="col-md-6 text-light">
+            <h3>All Members</h3>
+        </div>
+        <div class="col-md-6">
+         <form action="#">
+             <input type="text" placeholder="search" class="form-control w-50 d-inline">
+             <button class="btn btn-primary mb-1">Search</button>
+         </form>
+        </div>
+      </div>
+</div>
+</div>
+
+
+
+        <table border="1">
+          <thead style="position: sticky; top: 48px; background-color: gray; color: #f3f3f3;">
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Position</th>
+            <th>Gender</th>
+            <th>Age</th>
+            <th>City</th>
+             <th>Zilla</th>
+             <th>Nid</th>
+             <th>Post Code</th>
+             <th>Phone Number</th>
+             <th>Email</th>
+             <th>Edit</th>
+             <th>Delete</th>
+          </thead>
+          <tbody id="showAllMembers">
+
+          </tbody>
+        </table>
+
+
+  
+<!-- Modal -->
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content " style="width: 900px; margin-left: -300px;">
+      <div class="modal-header">
+        <h5 class="modal-title " style="margin-left:300px; color: #2980b9;" id="staticBackdropLabel">Information Editing Box</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" id="updateMembers">
+      
+      </div>
+      <div class="modal-footer">
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <script src="../js/getAllmembers.js"></script>
+</body>
+</html>

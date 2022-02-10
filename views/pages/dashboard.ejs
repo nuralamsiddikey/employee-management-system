@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+
+    <!-- Latest compiled and minified CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="../css/home.css" />
+    <title>Document</title>
+  </head>
+  <body>
+  
+
+    <!-- home-section -->
+
+    <div class="row">
+    
+        <div class="col-md-2 " style="width: 13%; ">
+            <div class="sidenav py-5  bg-dark "  >
+              <h3 id="adminName" class="text-light bg-primary px-2"></h3>
+              <div class="mb-3 px-3 text-light">
+                <i class="far fa-home "></i>
+                <a href="/userHome/home" class="text-light" > Home</a>
+              </div>
+              <div class="mb-3 px-3">
+                <i class="fal fa-tachometer-slow text-light"></i>
+                <a href="/userDashboard/dashboard"  class="text-light"> Dashboard</a>
+              </div>
+              
+            </div>
+          </div>
+   
+         
+
+
+      <div class="col-md-10 ">
+        <div class="row py-5">
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-header text-center bg-dark text-light">All Members</div>
+                    <div class="card-body text-center" >
+                      <span id="allMemberNumber" style="font-weight: 900;">
+
+                      </span>
+                      <a  style="text-decoration: none; margin-left: 100px; background: cyan; padding: 20px;" href="/member/allMembers" class="text-dark" >View</a>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <div class="card-header text-center bg-dark text-light">Managers</div>
+                <div class="card-body text-center" >
+                  <span id="allManagerNumber" style="font-weight: 900;">
+
+                  </span>
+                  <a  style="text-decoration: none; margin-left: 100px; background: cyan; padding: 20px;0;" href="/member/allMembers" class="text-dark" >View</a>
+                </div>
+                
+            </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <div class="card-header text-center bg-dark text-light">Directors</div>
+                <div class="card-body text-center" >
+                  <span id="allDirectorNumber" style="font-weight: 900;" >
+
+                  </span>
+                  <a  style="text-decoration: none; margin-left: 100px; background: cyan; padding: 20px; color: black; " href="/member/allMembers"  >View</a>
+                </div>
+                
+            </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <div class="card-header text-center bg-dark text-light">All Members</div>
+                <div class="card-body text-center" >
+                  <span id="allEmployeeNumber" style="font-weight: 900;">
+
+                  </span>
+                  <a  style="text-decoration: none; margin-left: 100px; background: cyan; padding: 20px; color: black; " href="/member/allMembers"  >View</a>
+                </div>
+                
+            </div>
+            </div>
+        </div>
+
+
+        <div class="row">
+          <div class="col-md-3 " style="margin-left: auto;">
+            <div class="card">
+              <div class="card-header text-center bg-dark text-light">Others</div>
+              <div class="card-body text-center" >
+                <span id="allOtherNumber" style="font-weight: 900;">
+
+                </span>
+                <a  style="text-decoration: none; margin-left: 100px; background: cyan; padding: 20px; color: black; " href="/member/allMembers"  >View</a>
+              </div>
+              
+          </div>
+          </div>
+        </div>
+
+
+
+
+
+
+
+        </div>
+      </div>
+    </div>
+
+
+
+
+<script src="../js/getAllmembers.js"></script>
+<script src="../js/adminName.js"></script>
+<script src="../js/getNotice.js"></script>
+  </body>
+</html>

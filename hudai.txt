@@ -1,0 +1,7 @@
+ <input name="id" id="searchId" type="text" placeholder="search" class="form-control w-50 d-inline">
+                <button type="submit" class="btn btn-primary mb-1" onclick="attendance()">Search</button>
+
+                
+ <div id="employeeName">
+
+ </div>
